@@ -22,7 +22,7 @@ chosenImage=""
 currentRegionName=""
 currentImage=""
 minInstances=2
-maxInstances=7
+maxInstances=4
 threads=[] # list of all the threads.
 ec2 = boto3.resource('ec2',region_name="us-east-1")
 lockFunc=0 # lock function for the commit thread instance function. 1-lock. 0-unlock
